@@ -25,6 +25,10 @@ To understand and apply **Data Manipulation Language (DML)** commands such as `I
 * Learned how to add, modify, and remove records using DML commands in MySQL.
 * Understood the importance of primary keys and constraints when updating and deleting data.
 
+
+  
 📌Summary 
+
+
 Learned to efficiently manage database records using SQL INSERT, UPDATE, and DELETE commands.
 Gained practical experience in modifying and maintaining data while ensuring integrity through constraints.
