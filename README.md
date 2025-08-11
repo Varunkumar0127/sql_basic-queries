@@ -28,5 +28,3 @@ To understand and apply **Data Manipulation Language (DML)** commands such as `I
 📌Summary 
 Learned to efficiently manage database records using SQL INSERT, UPDATE, and DELETE commands.
 Gained practical experience in modifying and maintaining data while ensuring integrity through constraints.
-
-Do you want me to also prepare **Task 3 README content** in the same format so your GitHub stays consistent?
