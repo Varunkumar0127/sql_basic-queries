@@ -1,27 +1,32 @@
-# sql_basic-queries
-Clear Outstanding of how to retrieve data
-In this task, I worked with SQL SELECT statements to retrieve specific data from a table.
-I used WHERE conditions with logical operators like AND, OR filter data effectively.
-Pattern matching was performed using the LIKE operator, and range filtering using the BETWEEN clause.
-I also applied the ORDER BY clause to sort results in ascending or descending order.
-These queries helped in understanding data filtering and sorting in real-time scenarios.
+📌 SQL Task 2 – DML Commands Practice
+
+ 🎯 Objective
+
+To understand and apply **Data Manipulation Language (DML)** commands such as `INSERT`, `UPDATE`, and `DELETE` in MySQL using a sample database.
+
+🛠️ Tools & Technologies
+
+ **MySQL 8.x** – Database Management System
+ **MySQL Workbench** – Query execution and data management
+ **SQL** – DML commands for data handling
 
 
-select *from guests;
-select *from rooms;
-select *from bookings;
-select *from payments;
-select *from services_used;
-select *from rooms where RoomID is not null;
-select *from rooms where RoomType='Suite' and PricePerNight=5000;
-select *from payments where PaymentMethod='UPI' or Amountpaid='3000';
-select *from guests where Name like '%a';
-select *from guests where Phone like '%0';
-select *from payments where AmountPaid between 5000 and 8000;
-select *from bookings where CheckInDate between '2025-08-10' and '2025-08-15';
-select *from services_used where ServiceID not between 1 and 3;
-select Name,Email from guests order by Name;
-select *from payments order by Amountpaid desc;
-select *from rooms order by RoomType;
-select *from services_used order by ServiceDate desc;
 
+📁 Task Activities
+
+1. **INSERT** – Added multiple records into the database tables (`guests`, `rooms`, `bookings`, `payments`, `services_used`).
+2. **UPDATE** – Modified existing records to reflect changes in booking details, payment amounts, or guest information.
+3. **DELETE** – Removed specific records from the tables when no longer required.
+
+---
+
+📌 Learning Outcomes
+
+* Learned how to add, modify, and remove records using DML commands in MySQL.
+* Understood the importance of primary keys and constraints when updating and deleting data.
+
+📌Summary 
+Learned to efficiently manage database records using SQL INSERT, UPDATE, and DELETE commands.
+Gained practical experience in modifying and maintaining data while ensuring integrity through constraints.
+
+Do you want me to also prepare **Task 3 README content** in the same format so your GitHub stays consistent?
