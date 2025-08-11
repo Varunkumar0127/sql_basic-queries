@@ -1,34 +1,39 @@
-📌 SQL Task 2 – DML Commands Practice
+📌 SQL Task 3 – Constraints & Keys Implementation
 
- 🎯 Objective
+🎯 Objective
 
-To understand and apply **Data Manipulation Language (DML)** commands such as `INSERT`, `UPDATE`, and `DELETE` in MySQL using a sample database.
+To learn and apply **constraints** and **keys** in MySQL for enforcing data integrity and defining relationships between tables.
 
-🛠️ Tools & Technologies
+---
+
+ 🛠️ Tools & Technologies
 
  **MySQL 8.x** – Database Management System
- **MySQL Workbench** – Query execution and data management
- **SQL** – DML commands for data handling
+ **MySQL Workbench** – Schema design and constraint management
+ **SQL** – DDL commands for table creation and key definition
 
-
+---
 
 📁 Task Activities
 
-1. **INSERT** – Added multiple records into the database tables (`guests`, `rooms`, `bookings`, `payments`, `services_used`).
-2. **UPDATE** – Modified existing records to reflect changes in booking details, payment amounts, or guest information.
-3. **DELETE** – Removed specific records from the tables when no longer required.
+1. **Primary Key** – Defined unique identifiers for each table.
+2. **Foreign Key** – Established relationships between tables to maintain referential integrity.
+3. **NOT NULL** – Ensured essential fields are always filled.
+4. **UNIQUE** – Prevented duplicate values in specific columns.
+5. **CHECK** – Applied rules to restrict invalid data entries.
 
 ---
 
 📌 Learning Outcomes
 
-* Learned how to add, modify, and remove records using DML commands in MySQL.
-* Understood the importance of primary keys and constraints when updating and deleting data.
+* Learned the purpose and application of primary keys, foreign keys, and constraints in relational databases.
+* Understood how constraints ensure accuracy and consistency of stored data.
 
+---
 
-  
-📌Summary 
+📌 Summary
 
+> Learned how to define and implement primary keys, foreign keys, and constraints to maintain data accuracy.
+> Understood how relationships between tables improve database integrity and structure.
 
-Learned to efficiently manage database records using SQL INSERT, UPDATE, and DELETE commands.
-Gained practical experience in modifying and maintaining data while ensuring integrity through constraints.
+---
