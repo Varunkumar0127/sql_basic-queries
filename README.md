@@ -1,39 +1,42 @@
-📌 SQL Task 3 – Constraints & Keys Implementation
+📌 SQL Task 3 – Writing Basic SELECT Queries
+
 
 🎯 Objective
 
-To learn and apply **constraints** and **keys** in MySQL for enforcing data integrity and defining relationships between tables.
+To learn how to **retrieve and filter data** from one or more tables using basic SQL `SELECT` statements with conditions, sorting, and limits.
 
 ---
 
- 🛠️ Tools & Technologies
+🛠️ Tools & Technologies
 
- **MySQL 8.x** – Database Management System
- **MySQL Workbench** – Schema design and constraint management
- **SQL** – DDL commands for table creation and key definition
+ **MySQL 8.x** / **DB Browser for SQLite** – Database Management System
+ **MySQL Workbench** – For query execution and result viewing
+ **SQL** – SELECT, WHERE, AND, OR, LIKE, BETWEEN, ORDER BY, LIMIT
 
 ---
 
+ 
 📁 Task Activities
 
-1. **Primary Key** – Defined unique identifiers for each table.
-2. **Foreign Key** – Established relationships between tables to maintain referential integrity.
-3. **NOT NULL** – Ensured essential fields are always filled.
-4. **UNIQUE** – Prevented duplicate values in specific columns.
-5. **CHECK** – Applied rules to restrict invalid data entries.
+1. Used `SELECT *` and specific column selection to display data.
+2. Applied **WHERE** conditions with `AND`, `OR` to filter rows.
+3. Used **LIKE** for pattern matching and **BETWEEN** for range filtering.
+4. Sorted results using **ORDER BY** in ascending and descending order.
+5. Limited the number of output rows using **LIMIT**.
+6. Practiced `DISTINCT` to retrieve unique values and **aliasing** for column renaming.
 
 ---
 
 📌 Learning Outcomes
 
-* Learned the purpose and application of primary keys, foreign keys, and constraints in relational databases.
-* Understood how constraints ensure accuracy and consistency of stored data.
+* Learned how to query and filter records efficiently from tables.
+* Understood how sorting, pattern matching, and limiting results improve data retrieval.
 
 ---
 
-📌 Summary
+📌 Summary 
 
-> Learned how to define and implement primary keys, foreign keys, and constraints to maintain data accuracy.
-> Understood how relationships between tables improve database integrity and structure.
+> Learned to extract and filter data using `SELECT`, `WHERE`, `ORDER BY`, and `LIMIT`.
+> Practiced retrieving specific, sorted, and unique results with real-world query examples.
 
 ---
